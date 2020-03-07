@@ -54,3 +54,4 @@ class JAPFirmwareSensor(Entity):
             _LOGGER.debug("State: [%s]", versions)
 
             self._state = versions
+            self._updated = datetime.now()
